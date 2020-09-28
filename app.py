@@ -43,13 +43,13 @@ print()
 
 if tech_final > outdoor_final and tech_final > music_final:
   print("You might be suitable for Infocomm club!")
-elif outdoor_final > music_final:
+if outdoor_final > music_final:
   print("You might be stuiable for ODAC!")
-else:
+if music_final > outdoor_final:
   print("You might be suitable for Band!")
-else:
+if tech_final == outdoor_final :
   print("You might be suitable for Art Club!")
-else: 
+if outdoor_final == tech_final or outdoor_final == music_final: 
   print("You might be suitable for Chinese Orchestra!")
-else: 
+if music_final > tech_final and music_final > outdoor_final: 
   print("You might be suitable for Chinese Drama!")
