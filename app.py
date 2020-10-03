@@ -53,3 +53,5 @@ else:
   print("You might be suitable for Chinese Orchestra!")
 else: 
   print("You might be suitable for Chinese Drama!")
+  
+  #hi there! you cant have so many "else" you only can use one
